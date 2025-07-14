@@ -8,7 +8,6 @@ require('dotenv').config();
 
 const authRoutes = require('./routes/auth');
 const postRoutes = require('./routes/posts');
-const userRoutes = require('./routes/users');
 const errorHandler = require('./middleware/errorHandler');
 const { authenticateToken } = require('./middleware/auth');
 
